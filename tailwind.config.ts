@@ -10,9 +10,9 @@ const config: Config = {
     container: {
       center: true,
       padding: {
-        default: "20px",
+        DEFAULT: "20px",
         lg: "80px",
-      },
+      }
     },
     extend: {
       backgroundImage: {
