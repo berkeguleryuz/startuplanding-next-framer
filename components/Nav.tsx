@@ -13,7 +13,7 @@ const Nav = (props: Props) => {
         <div className="flex justify-between items-center md:border border-white/15 p-2.5 rounded-xl max-w-3xl mx-auto md:backdrop-blur">
           <div>
             <div className="border h-12 w-12 rounded-lg inline-flex justify-center items-center border-white/15">
-              <Image src="/logo.png" alt="logo" width={35} height={35} />
+              <Image src="/logo.png" alt="logo" width={35} height={35} className="cursor-pointer hover:scale-105 transition-all" />
             </div>
           </div>
           <div className="hidden md:block">

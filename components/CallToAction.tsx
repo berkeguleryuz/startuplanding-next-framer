@@ -7,20 +7,20 @@ type Props = {};
 
 const CallToAction = (props: Props) => {
   return (
-    <section className="py-20">
+    <section className="py-20 md:py-24">
       <div className="container">
         <div
           className="border border-white/15 py-24 rounded-xl overflow-hidden relative"
           style={{ backgroundImage: `url(${starsBg.src})` }}>
           <div
-            className="absolute inset-0 bg-[rgb(74,32,138)] bg-blend-overlay [mask-image:radial-gradient(50%_50%_at_50%_35%,black,transparent)]"
+            className="absolute inset-0 bg-[rgb(74,32,138)] bg-blend-overlay [mask-image:radial-gradient(50%_50%_at_50%_40%,black,transparent)]"
             style={{ backgroundImage: `url(${gridBg.src})` }}
           />
           <div className="relative">
-            <h2 className="text-5xl tracking-tighter text-center font-medium">
+            <h2 className="text-5xl md:text-6xl  max-w-sm mx-auto tracking-tighter text-center font-medium">
               Ready to get started?
             </h2>
-            <p className="text-center text-lg text-white/70 px-4 mt-5 tracking-tight">
+            <p className="text-center md:text-xl max-w-xs mx-auto text-lg text-white/70 px-4 mt-5 tracking-tight">
               Get started with Clodron today.
             </p>
             <div className="flex justify-center mt-8">
