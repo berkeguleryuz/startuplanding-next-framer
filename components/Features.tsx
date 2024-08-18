@@ -71,8 +71,6 @@ const Features = (props: Props) => {
             className="aspect-video bg-cover border border-white/20 rounded-lg"
             style={{ backgroundImage: `url(${BgProject.src})` }}
           />
-          {/* 
-          <Image src={BgProject} alt="bg-project" className="mt-10 rounded-lg" priority placeholder="blur" /> */}
         </div>
       </div>
     </section>
